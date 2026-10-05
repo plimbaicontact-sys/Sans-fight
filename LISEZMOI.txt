@@ -1,0 +1,24 @@
+SANS FIGHT - version web compilée
+=================================
+
+Double-clique sur SansFight.html : le jeu s'ouvre dans le navigateur
+(Chrome, Edge ou Firefox récents). Rien à installer, pas de serveur, pas
+d'internet nécessaire. Marche aussi sur tablette / téléphone, même ouvert
+depuis un gestionnaire de fichiers.
+
+SansFight.html contient TOUT dans un seul fichier : le moteur Python/pygame
+(Pyodide, WebAssembly), le jeu compilé (bytecode Python 3.12), les sprites,
+les sons et les musiques.
+
+index.html redirige simplement vers SansFight.html (utile pour la mise en
+ligne : itch.io en "HTML", GitHub Pages, Netlify...).
+
+ÉCRAN
+  Le jeu passe en grand écran quand tu cliques sur PLAY.
+  F ou le bouton SMALL SCREEN / BIG SCREEN : grand / petit écran.
+  Échap : quitter le plein écran du navigateur.
+
+COMMANDES
+  Flèches : bouger   Z / Entrée : valider   X / Maj : annuler   M : musique
+
+Sprites, sons et musiques : Undertale (c) Toby Fox. Projet fan non officiel.
